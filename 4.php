@@ -8,7 +8,9 @@
 		<?php Navigation();?>
 			
 		
-	</aside><!--SIDEBAR-->
+	</aside>
+	
+	<!--SIDEBAR-->
 
 
 <article class="main-content col-xs-8">
@@ -22,8 +24,23 @@
 	Étape 2: Créez une fonction qui transmet des paramètres et appelez-la à l'aide de valeurs de paramètres
 
  */
+function calcul($x, $y) {
+	$r = $x+$y;
+	echo $r;
+}
 
-	
+
+calcul(2,6);
+
+echo "<br/>";
+
+function apl ($nom , $prenom) {
+	echo "$nom  $prenom";
+
+}
+
+apl('mokhliss', 'manal');
+
 ?>
 
 

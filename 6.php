@@ -20,8 +20,18 @@
 	Étape 1: Créez un formulaire qui soumet une seule valeur à POST (super global)
  */
 
+if(isset($_POST['send'])){
+	$age = $_POST['age'];
+	echo $age;
+} 
+
 	
 ?>
+
+<form action="process.php" method="POST">
+	<input type="text" name="age" value="22">
+	<button type="submit" name="send">SUBMIT YOUR AGE</button>
+</form>
 
 
 </article><!--MAIN CONTENT-->

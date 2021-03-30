@@ -24,6 +24,34 @@
 
  */
 
+ echo max(8,7);
+
+echo "<br/>";
+
+ echo "MANAL";
+
+ echo "<br/>";
+
+ echo strtolower("MANAL");
+
+ $tableauManal = ["mokhliss", "manal"];
+
+ array_push($tableauManal, '23');
+
+ array_pop($tableauManal);	
+
+
+ echo "<br/>";
+
+ echo $tableauManal[2];
+
+
+
+
+
+
+ 
+
 	
 ?>
 

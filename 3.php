@@ -24,6 +24,28 @@
 
  */
 
+ function greenchip($nom){
+	 if(!($nom)){
+		echo 'entrez un nom valide';
+	 }
+	 else if(!($nom == 'greenchip')){
+		 echo 'nom invalide';
+	 }
+	 else{
+		 echo 'I love greenchip :p';
+	 }
+ }
+
+
+ greenchip('greenchip');
+
+ echo nl2br("\r\n");
+
+ for ($i = 1; $i<=10; $i++){
+	 echo $i;
+	 echo nl2br("\r\n");
+
+ }
 	
 ?>
 

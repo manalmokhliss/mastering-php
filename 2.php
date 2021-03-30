@@ -31,8 +31,19 @@
 
 			 */
 
-		
+			$number1= 10;
+			$number2 = 20;
+			echo "number1 + number2 =". $number1+$number2; 
+			echo nl2br("\r\n");
 
+			$me = ["manal", "mokhliss"];
+			$meassociatif = ["nom" =>"mokhliss", "prenom"=>"manal"];
+
+			echo nl2br("\r\n");
+
+			define("constVar", "PHP");
+
+			
 
 		?>
 
